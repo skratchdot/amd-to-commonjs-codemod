@@ -46,7 +46,7 @@ module.exports = {
     'prefer-const': 1,
     'prefer-template': 2,
     quotes: [2, 'single'],
-    'quote-props': ['error', 'as-needed'],
+    'quote-props': [2, 'as-needed'],
     semi: [2, 'always'],
     'sort-imports': 2,
     'space-before-blocks': 2,
