@@ -1,0 +1,46 @@
+{
+  "name": "amd-to-commonjs-codemod",
+  "version": "1.0.0",
+  "description": "A codemod to transform amd style includes into commonjs includes",
+  "main": "transform.js",
+  "scripts": {
+    "cover": "jest --coverage",
+    "coveralls": "cat coverage/lcov.info | coveralls --verbose",
+    "lint": "eslint --no-ignore .eslintrc.js ./*.js ./__tests__/**/*.js",
+    "test": "jest"
+  },
+  "author": "skratchdot",
+  "license": "MIT",
+  "homepage": "https://github.com/skratchdot/amd-to-commonjs-codemod",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/skratchdot/amd-to-commonjs-codemod.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skratchdot/amd-to-commonjs-codemod/issues"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.15",
+    "eslint": "^3.11.1",
+    "jest": "^17.0.3",
+    "jscodeshift": "^0.3.30"
+  },
+  "keywords": [
+    "codemod",
+    "amd",
+    "cjs",
+    "commonjs",
+    "require",
+    "import",
+    "transform",
+    "jscodeshift"
+  ],
+  "jest": {
+    "verbose": true,
+    "coverageReporters": [
+      "text-summary",
+      "html",
+      "lcovonly"
+    ]
+  }
+}

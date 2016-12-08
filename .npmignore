@@ -1,0 +1,10 @@
+.git*
+_ignore/
+__testfixtures__
+__tests__
+coverage/
+.DS_Store
+.gitignore
+.npm-debug.log
+.project
+.travis.yml
