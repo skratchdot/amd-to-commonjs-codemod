@@ -4,6 +4,10 @@ node_js:
   - '6.0'
   - '5.0'
   - '4.0'
+cache:
+  yarn: true
+  directories:
+    - node_modules
 script:
-  - npm run cover
-  - npm run coveralls
+  - yarn cover
+  - yarn coveralls
